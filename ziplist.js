@@ -5,8 +5,8 @@ const arr2 = [1, 2, 3];
 function zipList(one, two) {
   const alter = [];
   for (let i = 0; i < one.length; i++) {
-    alter.push(one[i]);
-    alter.push(two[i]);
+    alter.push(one[i], two[i]);
+
   }
   return alter;
 }
